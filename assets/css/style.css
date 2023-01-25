@@ -9,7 +9,7 @@ header,
 footer {
     background-color: black;
     width: 100%;
-    height: 110px;
+    height: 90px;
     color: white;
 }
 
@@ -29,6 +29,11 @@ h4 {
 .hyperlinks {
     text-align: center;
     color: white;
+}
+
+img {
+    width: 50%;
+    height: 500px;
 }
 
 .box {
