@@ -14,7 +14,7 @@ footer {
 }
 
 header {
-    position: fixed;
+    position: sticky;
     top: 0px;
 }
 
@@ -32,8 +32,11 @@ h4 {
 }
 
 img {
+    display: block;
     width: 50%;
     height: 500px;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 
 .box {
@@ -41,11 +44,16 @@ img {
     background-color: beige;
 }
 
+a {
+    color: white;
+    margin: 50px;
+}
+
 button {
     display: block;
-    position: relative;
-    left: 850px;
     margin-top: 20px;
+    margin-left: 48%;
+    margin-right: 48%;
 }
 
 form {
